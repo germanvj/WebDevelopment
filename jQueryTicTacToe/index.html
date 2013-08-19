@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>Gato</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	</head>
+	<body>
+		<table >
+			<tr>
+				<td>Turno: </td>
+				<td id="turno">0</td>
+				<td rowspan="5" width="200px">
+				</td>
+				<td rowspan="5">
+					<div id="board">
+					    <table id="tablero">
+					      <tr id="row1">
+					        <td data-punto="0" class="square"><img src="images/o.png"/></td>
+					        <td data-punto="1" class="square v">a</td>
+					        <td data-punto="2" class="square">a</td>
+					      </tr>
+					      <tr id="row2">
+					        <td data-punto="3" class="square h">a</td>
+					        <td data-punto="4" class="square v h"><img src="images/o.png"/></td>
+					        <td data-punto="5" class="square h">a</td>
+					      </tr>
+					      <tr id="row3">
+					        <td data-punto="6" class="square">a</td>
+					        <td data-punto="7" class="square v">a</td>
+					        <td data-punto="8" class="square"><img src="images/o.png"/></td>
+					      </tr>
+					    </table>
+					  </div>
+				</td>
+			</tr>
+			<tr>
+				<td>Total de juegos jugados: </td>
+				<td id="total">O</td>
+			</tr>
+			<tr>
+				<td>Ganados por 0: </td>
+				<td id="ganadoso">O</td>
+			</tr>
+			<tr>
+				<td>Ganados por X: </td>
+				<td id="ganadosx">O</td>
+			</tr>
+			<tr>
+				<td>Empatados: </td>
+				<td id="empatados">O</td>
+			</tr>
+		<table>
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/acciones.js"></script>
+	</body>
+</html>
